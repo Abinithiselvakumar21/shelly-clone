@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shelly Clone</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- TOP HEADER -->
+<div class="container">
+  <div class="top-bar">
+
+    <div class="logo">
+      <img src="assets/images/logo.png" alt="Shelly Logo">
+      <span>SHELLY</span>
+    </div>
+
+    <div class="info-items">
+
+      <div class="info">
+        <span class="icon"><i class="fa-solid fa-phone"></i></span>
+        <div>
+          <p>Call Us</p>
+          <small>+2 342 5446 67</small>
+        </div>
+      </div>
+
+      <div class="info">
+        <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
+        <div>
+          <p>Business hours</p>
+          <small>Mon - Fri 8 AM - 5 PM</small>
+        </div>
+      </div>
+
+      <div class="info">
+        <span class="icon"><i class="fa-solid fa-clock"></i></span>
+        <div>
+          <p>Location</p>
+          <small>Franklin St, Greenpoint Ave</small>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<div class="container">
+ <header class="main-nav">
+
+  <input type="checkbox" id="menu-toggle">
+
+  <label for="menu-toggle" class="hamburger">
+    <i class="fa-solid fa-bars open-icon"></i>
+    <i class="fa-solid fa-xmark close-icon"></i>
+  </label>
+
+
+
+  <ul class="menu">
+  <li class="active">Home</li>
+
+  <li>About Us</li>
+<!-- Classes Dropdown -->
+    <li class="dropdown">
+    <a href="#">Classes ▾</a>
+     <ul class="dropdown-menu">
+      <li><a href="#">Single Classes</a></li>
+
+    </ul>
+  </li>
+
+
+  <!-- Teachers Dropdown -->
+  <li class="dropdown">
+    <a href="#">Teachers ▾</a>
+    <ul class="dropdown-menu">
+      <li><a href="#">Single Teachers</a></li>
+
+    </ul>
+  </li>
+
+  <!-- Events Dropdown -->
+  <li class="dropdown">
+    <a href="#">Events ▾</a>
+    <ul class="dropdown-menu">
+      <li><a href="#">Single Events</a></li>
+ 
+    </ul>
+  </li>
+
+    <!-- Blogs Dropdown -->
+  <li class="dropdown">
+    <a href="#">Blogs ▾</a>
+       <ul class="dropdown-menu">
+      <li><a href="#">Single Blogs</a></li>
+ 
+    </ul>
+  </li>
+
+
+  <li>Contacts</li>
+</ul>
+
+  <div class="social">
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-linkedin-in"></i>
+  </div>
+
+</header>
+</div>
+
+<!-- HERO -->
+<section class="hero-section">
+  <div class="container hero-wrapper">
+
+    <!-- LEFT SIDE -->
+    <div class="hero-left">
+
+      <h1>
+        The Smarter<br>
+        Way to Learn<br>
+        <span>Anything</span>
+      </h1>
+
+      <p>
+        More than a pixel-perfect WordPress theme: bold design,
+        innovative features, developed for education/academic websites.
+      </p>
+
+      <div class="search-box">
+        <input type="text" placeholder="Search classes">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="hero-right">
+
+      <div class="img big1">
+        <img src="assets/images/hero-1.jpg">
+      </div>
+
+      <div class="img big2">
+        <img src="assets/images/hero-3.jpg">
+      </div>
+
+      <div class="img small1">
+        <img src="assets/images/hero-2.jpg">
+      </div>
+
+      <div class="img small2">
+        <img src="assets/images/hero-4.jpg">
+      </div>
+
+      <!-- decorative circles -->
+      <div class="circle orange"></div>
+      <div class="circle yellow"></div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="features-section">
+  <div class="container">
+    <h2 class="title">Welcome to <span>Shelly</span></h2>
+    <p class="subtitle">
+      Ecosystem blended learning off-the-shelf learning storytelling explainer animation completion criteria.
+    </p>
+
+    <div class="cards">
+      
+      <div class="card" style="height:50%">
+     <div class="icon">
+  <i class="fas fa-user-graduate"></i>
+</div>
+
+
+        <h3>Experienced Teachers</h3>
+        <p>Morbi vel augue et metus pellentesque lacinia eu non odio.</p>
+      </div>
+
+      <div class="card featured">
+        <div class="image">
+          <img src="assets/images/kids-at-lesson-SEUX7GM-150x150.jpg" alt="student">
+        </div>
+        <h3>Best Learning Programm</h3>
+        <p>Morbi vel augue et metus pellentesque lacinia eu non odio.</p>
+        <button>Learn more</button>
+      </div>
+
+      <div class="card" style="height:50%">
+     <div class="icon">
+  <i class="fas fa-award"></i>
+</div>
+        <h3>Global Certificate</h3>
+        <p>Etiam risus neque, volutpat vel laoreet a, finibus volupat.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- EVENT SECTION -->
+<section class="event-area">
+
+  <div class="event-container">
+
+    <!-- LEFT SIDE -->
+    <div class="event-left">
+
+      <h2 class="event-title">
+        Upcoming <span>Event</span>
+      </h2>
+
+      <p class="event-text">
+        Learning record store (lrs) bite-sized learning avatar
+        elearning, multimedia scenario serious games
+      </p>
+
+      <div class="event-image-wrapper">
+
+        <div class="event-big-image">
+          <img src="assets/images/gallery-12-1.jpg" alt="">
+        </div>
+
+        <div class="event-small-images">
+          <img src="assets/images/gallery-14.jpg" alt="">
+          <img src="assets/images/gallery-13-1.jpg" alt="">
+        </div>
+
+        <!-- CIRCLES -->
+        <span class="event-circle event-yellow"></span>
+        <span class="event-circle event-orange-one"></span>
+        <span class="event-circle event-orange-two"></span>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="event-right">
+
+      <!-- CARD -->
+      <div class="event-box">
+
+        <div class="event-top">
+
+          <div class="event-info">
+            <div class="event-icon">
+  <i class="fa-regular fa-calendar"></i>
+</div>
+            <span>December 30, 2022</span>
+          </div>
+
+          <div class="event-info">
+            <div class="event-icon">
+  <i class="fa-regular fa-clock"></i>
+</div>
+            <span>12:00 pm</span>
+          </div>
+
+          <div class="event-price">$8</div>
+
+        </div>
+
+        <h4 class="event-heading">
+          Explore Watercolor Illustration
+        </h4>
+
+        <div class="event-location">
+          📍 25 Grafton St, Worcester
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div class="event-box">
+
+        <div class="event-top">
+
+          <div class="event-info">
+            <div class="event-icon">
+  <i class="fa-regular fa-calendar"></i>
+</div>
+            <span>December 30, 2022</span>
+          </div>
+
+          <div class="event-info">
+            <div class="event-icon">
+  <i class="fa-regular fa-clock"></i>
+</div>
+            <span>11AM to 15PM</span>
+          </div>
+
+          <div class="event-price">$16</div>
+
+        </div>
+
+        <h4 class="event-heading">
+          Environment Conference
+        </h4>
+
+        <div class="event-location">
+          📍 9 Grafton St, Worcester
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div class="event-box">
+
+        <div class="event-top">
+
+          <div class="event-info">
+            <div class="event-icon">
+  <i class="fa-regular fa-calendar"></i>
+</div>
+            <span>December 30, 2022</span>
+          </div>
+
+          <div class="event-info">
+            <div class="event-icon">
+  <i class="fa-regular fa-clock"></i>
+</div>
+            <span>5:00 pm</span>
+          </div>
+
+          <div class="event-price event-free">$free</div>
+
+        </div>
+
+        <h4 class="event-heading">
+          Digital Transformation Conference
+        </h4>
+
+        <div class="event-location">
+          📍 88 Grafton St, Worcester
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+<section class="classes-area">
+  <div class="classes-container">
+
+    <div class="classes-header">
+      <h2>Our <span>Classes</span></h2>
+      <p>
+        Application programming interface voice-over (vo) instructor led training
+        curation, user created content
+      </p>
+    </div>
+
+    <div class="classes-grid">
+
+      <!-- CARD 1 -->
+      <div class="class-card">
+        <div class="class-img">
+          <img src="assets/images/class1-270x180.png" alt="">
+        </div>
+
+        <div class="class-meta">
+<span><i class="fa-regular fa-calendar"></i> Mon-Fri</span>
+<span><i class="fa-regular fa-clock"></i> 10 AM - 12 AM</span>
+        </div>
+
+        <h3>Basic English Speaking and Grammar</h3>
+
+        <div class="class-bottom">
+          <div class="teacher">
+            <img src="assets/images/class1-270x180.png" alt="">
+            <span>Chikelu Obasea</span>
+          </div>
+          <div class="price">$45</div>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="class-card">
+        <div class="class-img">
+          <img src="assets/images/class2-270x180.png" alt="">
+        </div>
+
+        <div class="class-meta">
+<span><i class="fa-regular fa-calendar"></i> Mon-Fri</span>
+<span><i class="fa-regular fa-clock"></i> 10 AM - 12 AM</span>
+        </div>
+
+        <h3>Natural Sciences & Mathematics Courses</h3>
+
+        <div class="class-bottom">
+          <div class="teacher">
+            <img src="assets/images/class2-270x180.png" alt="">
+            <span>Dai Jiang</span>
+          </div>
+          <div class="price">$45</div>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="class-card">
+        <div class="class-img">
+          <img src="assets/images/girl-doing-homework-or-online-education-R72VXGD-270x180.jpg" alt="">
+        </div>
+
+        <div class="class-meta">
+<span><i class="fa-regular fa-calendar"></i> Mon-Fri</span>
+<span><i class="fa-regular fa-clock"></i> 10 AM - 12 AM</span>
+        </div>
+
+        <h3 class active-title>Environmental Studies & Earth Sciences</h3>
+
+        <div class="class-bottom">
+          <div class="teacher">
+            <img src="assets/images/girl-doing-homework-or-online-education-R72VXGD-270x180.jpg" alt="">
+            <span>Polina Kerston</span>
+          </div>
+          <div class="price">$45</div>
+        </div>
+      </div>
+
+    <!--ARROWS -->
+    <div class="classes-arrows">
+      <button class="arrow-btn">&#10094;</button>
+      <button class="arrow-btn">&#10095;</button>
+    </div>
+
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="study-gallery-area">
+  <div class="study-gallery-container">
+
+    <div class="study-gallery-header">
+      <h2>Study Process <span>Gallery</span></h2>
+      <p>
+        Instructor led training digital learning cbt completion criteria learning
+        management system cognitive load byod self-directed learning knowledge
+      </p>
+    </div>
+
+    <div class="study-gallery-grid">
+
+        
+      <div class="g-img g1"><img src="assets/images/gallery1.jpg"></div>
+      <div class="g-img g2"><img src="assets/images/gallery10.jpg"></div>
+      <div class="g-img g3"><img src="assets/images/gallery2.jpg"></div>
+      <div class="g-img g4"><img src="assets/images/class5.png"></div>
+      <div class="g-img g5"><img src="assets/images/gallery4.jpg"></div>
+      <div class="g-img g6"><img src="assets/images/gallery6.jpg"></div>
+      <div class="g-img g7"><img src="assets/images/gallery7.jpg"></div>
+     
+
+    </div>
+
+  </div>
+</section>
+
+
+ <section class="teachers-section">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Our Awesome <span>Teachers</span></h2>
+
+        <p>
+          Rapid learning rapid authoring tools web based training (wbt)
+          informal learning virtual classroom, roi instructional designer
+          big data
+        </p>
+      </div>
+
+      <div class="teachers-wrapper">
+
+        <!-- Card 1 -->
+        <div class="teacher-card">
+          <div class="teacher-image">
+            <img src="assets/images/img5-270x405.png" alt="">
+
+            <div class="share-btn">
+              <i class="fa-solid fa-share-nodes"></i>
+            </div>
+          </div>
+
+          <div class="teacher-info">
+            <h3>Polina Kerston</h3>
+            <span>English Teacher</span>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="teacher-card">
+          <div class="teacher-image">
+            <img src="assets/images/img6-270x405.png" alt="">
+
+            <div class="share-btn">
+              <i class="fa-solid fa-share-nodes"></i>
+            </div>
+          </div>
+
+          <div class="teacher-info">
+            <h3>Faadi Al Rahman</h3>
+            <span>Instructor</span>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="teacher-card">
+          <div class="teacher-image">
+            <img src="assets/images/img7-270x405.png" alt="">
+
+            <div class="share-btn">
+              <i class="fa-solid fa-share-nodes"></i>
+            </div>
+          </div>
+
+          <div class="teacher-info">
+            <h3>Chikelu Obasea</h3>
+            <span>Art Teacher</span>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="teacher-card">
+          <div class="teacher-image">
+            <img src="assets/images/img8-270x405.png" alt="">
+
+            <div class="share-btn">
+              <i class="fa-solid fa-share-nodes"></i>
+            </div>
+          </div>
+
+          <div class="teacher-info">
+            <h3>Katayama Fumiki</h3>
+            <span>Teacher</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+<!-- ===== FOOTER SECTION START ===== -->
+
+<section class="footer-area">
+
+  <!-- TOP NEWSLETTER BOX -->
+  <div class="newsletter-section">
+    <div class="container">
+
+      <div class="newsletter-box">
+
+        <!-- Left Content -->
+        <div class="newsletter-content">
+          <h4>
+            Join us <br>
+            and stay tuned!
+          </h4>
+
+          <p>
+            Curation active learning ecosystem learning
+            content management system lxd lxp rapid
+            learning
+          </p>
+        </div>
+
+        <!-- Right Form -->
+        <div class="newsletter-form">
+
+          <div class="input-row">
+            <input type="text" placeholder="Your name">
+            <input type="email" placeholder="Your email">
+          </div>
+
+          <textarea placeholder="Message"></textarea>
+
+          <button>Send a message</button>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- MIDDLE FOOTER -->
+  <div class="footer-middle">
+    <div class="container">
+
+      <div class="footer-wrapper">
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h3>Contact us</h3>
+
+          <ul>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <strong>Call Us</strong>
+                <span>+2 342 5446 67</span>
+              </div>
+            </li>
+
+            <li>
+              <i class="fa-solid fa-clock"></i>
+              <div>
+                <strong>Business hours</strong>
+                <span>Mon - Fri 8 AM - 5 PM</span>
+              </div>
+            </li>
+
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <strong>Location</strong>
+                <span>Franklin St, Greenpoint Ave</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+
+          <ul class="quick-links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Classes</a></li>
+            <li><a href="#">School Teachers</a></li>
+            <li><a href="#">Recent Events</a></li>
+            <li><a href="#">Our news</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- BOTTOM FOOTER -->
+<div class="footer-bottom">
+  <div class="container">
+
+    <div class="bottom-wrapper">
+
+      <p>© Copyrights 2021 Shelly All rights reserved</p>
+
+  <div class="social">
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-linkedin-in"></i>
+  </div>
+
+    </div>
+
+  </div>
+</div>
+
+</section>
+
+
+
+</body>
+</html>
